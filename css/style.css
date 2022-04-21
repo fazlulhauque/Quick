@@ -1,0 +1,185 @@
+/*common start*/
+body{
+	margin: 0px;
+	padding: 0px;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #0f2656;
+}
+/*common end*/
+/*header start*/
+header{
+border-bottom: 2px solid #0f26561c;
+padding: 20px 0px;
+}
+.container{
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.logo img{
+width: 100%;
+}
+.menu{
+width: 40%;
+	/*border: 1px solid blue;*/
+	float: right;
+	padding: 11px;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+font-size: 18px;
+font-weight: 400;
+color:#0f2656 ;
+text-decoration: none;
+padding: 0 25px;
+display: inline-block;
+}
+.menu ul li:last-child a{
+padding-right: 0px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+padding: 50px 0;
+}
+.container2{
+   width: 60%;
+   /*border: 1px solid red;*/
+   margin: 0 auto;
+}
+.b_text{
+text-align: center;
+}
+.b_text h1{
+font-size: 50px;
+color: #0F2656;
+line-height: 75px;
+margin:30px 250px;
+
+}
+.b_text h1 span{
+color: #0084FF;
+}
+.b_text p{
+color: #0E2555;
+font-size: 17px;
+line-height: 30px;
+margin: 0 175px 30px;
+}
+.b_img{
+width: 65%;
+margin: 0 auto;
+}
+.b_img img{
+width: 100%;
+}
+/*banner end*/
+/*success strat*/
+.success{
+padding: 50px 0;
+/*border: 1px solid ;*/
+}
+.s_content{
+overflow: hidden;
+padding: 0 15px;
+}
+.s_left{
+width: 45%;
+float: left;
+/*border: 1px solid;*/
+padding: 10px 18px;
+text-align: right;
+}
+.s_left h2{
+font-size: 60px;
+margin: 0;
+color:#F15767;
+}
+.s_left p{
+font-size: 23px;
+color: #0F2656;
+}
+.s_right{
+width: 45%;
+float: right;
+/*border: 1px solid;*/
+padding: 10px 18px;
+}
+.s_right h1{
+color: #0A2152;
+font-size: 55px;
+margin: 0;
+}
+/*success end*/
+/*service start*/
+.service{
+padding: 50px 0;
+}
+.s_wrapper{
+
+}
+.red{
+background-color: #FDEBED;
+}
+.green{
+background-color: #E8F9F4;
+}
+.blue{
+background-color: #FFF9E9 ;
+}
+.s_single{
+float: left;
+width: 27%;
+/*border: 1px solid red;*/
+padding: 50px 29px;
+margin-right: 25px;
+}
+.s_single:last last-child{
+	margin-right: 0;
+}
+.s_img{
+/*border: 1px solid;*/
+}
+.s_img img{
+width: 100%;
+}
+.s_text{}
+.s_text h2{
+font-size: 30px;
+}
+.s_text p{
+font-size: 24px;
+}
+/*service end*/
+footer{
+padding: 40px 0;
+background-color: #008aff;
+}
+.f_text{
+	text-align: center;
+}
+.f_text p{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+    color: skyblue;
+    font-size: 14px;
+}
+.f_text p span{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
